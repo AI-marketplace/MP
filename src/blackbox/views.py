@@ -10,8 +10,8 @@ def home_page(request):
 def contact(request):
     return render(request, "contact/view.html", {})
 
-def price(request):
-    return render(request, "home_page.html", {})
+def model1(request):
+    return render(request, "model1/view.html", {})
 
 def about(request):
     return render(request, "home_page.html", {})
